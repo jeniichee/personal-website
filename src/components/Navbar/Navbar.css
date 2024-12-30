@@ -1,0 +1,33 @@
+.nav {
+  background-color: #f6f5f3;
+  z-index: 1;
+  border: 0; 
+}
+
+nav ul {
+  list-style: none;
+  display: flex; 
+  margin: 0; 
+}
+
+nav ul li a {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center; 
+    min-width: 7.5rem; 
+    height: 2.75rem; 
+    line-height: 2.75rem; 
+    letter-spacing: 0.2rem; 
+    font-size: 0.8rem; 
+    border-bottom: 0;
+}
+
+a:hover {
+    border-bottom-color: transparent;
+}
+
+.name {
+    font-family: "Sulphur Point", sans-serif;
+    font-weight: bolder;
+}

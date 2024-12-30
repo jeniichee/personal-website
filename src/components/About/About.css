@@ -1,0 +1,38 @@
+#about { 
+    min-width: 100vh; 
+    height: 100vh; 
+    width: 100%; 
+    background-color: #e6e4e0;
+}
+
+.content {
+    display: flex; 
+    flex-direction: row;  
+    align-items: center;
+    justify-content: center; 
+}
+
+.bio-container {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0; 
+}
+
+.bio-content {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1rem; 
+    background-color: #000000; 
+    overflow-y: auto;
+    height: 450px;
+    width: 699px;
+    color: #ffffff; 
+    line-height: 22px;
+    white-space: pre-wrap;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-img {
+    border: 1px solid #000000; 
+}

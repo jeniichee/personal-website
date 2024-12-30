@@ -1,0 +1,45 @@
+package me;
+
+import java.awt.Color;
+import java.util.HashMap;
+
+public class Jen {
+
+    public static void main(String[] args) {
+        String govName = "Jennifer Cheung";
+        int age = 22;
+        String homeTown = "Malden, Massachusetts";
+        String university = "Northeastern University";
+        String[] majors = new String[] {
+            "Computer Science",
+            "Behavioral Neuroscience"
+        };
+
+        HashMap<String, Integer> recentGraduate = new HashMap<>();
+        recentGraduate.put("December", 2024);
+
+        Color favoriteColor = Color.WHITE;
+        String[] hobbies = new String[] {
+            "Cardio",
+            "Espresso",
+            "Exploring",
+            "Learning",
+			"Legos",
+			"Music",
+            "Painting",
+            "Photography",
+            "Reading",
+        };
+
+        String[] interests = new String[] {
+            "Software Engineering",
+            "Artificial Intelligence",
+            "Data Science",
+            "Machine Learning",
+            "Neuroscience"
+			"Healthcare",
+			"Mental Health",
+			"Neurodiversity",
+        };
+    }
+}
