@@ -5,18 +5,11 @@
     background-color: #e6e4e0;
 }
 
-.content {
-    display: flex; 
-    flex-direction: row;  
-    align-items: center;
-    justify-content: center; 
-}
-
 .bio-container {
     display: flex; 
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: right; 
     margin: 0; 
 }
 
@@ -25,14 +18,16 @@
     font-size: 1rem; 
     background-color: #000000; 
     overflow-y: auto;
-    height: 450px;
-    width: 699px;
+    height: 35rem;  
+    width: 65rem; 
     color: #ffffff; 
     line-height: 22px;
     white-space: pre-wrap;
+    padding-inline: 1rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.about-img {
-    border: 1px solid #000000; 
+.run-button {
+    margin: 2rem; 
+    padding: 0.5rem 1rem 0.5rem; 
 }

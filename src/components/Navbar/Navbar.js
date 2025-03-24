@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => (
@@ -7,16 +8,42 @@ const Navbar = () => (
       <nav>
         <ul>
           <li className="name">
-            <a href="#header">Jennifer Cheung</a>
+            <Link to="/">Jennifer Cheung</Link>
           </li>
           <li>
-            <a href="#about">About</a>
+            <NavLink 
+              to="/about" 
+              className={({ isActive }) => isActive ? "active" : ""}
+            >
+              About
+            </NavLink>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <NavLink 
+              to="/portfolio"
+              className={({ isActive }) => isActive ? "active" : ""}
+            >
+              Portfolio
+            </NavLink>
           </li>
           <li>
-            <a href="#contact">Contact Me</a>
+            <NavLink 
+              to="/yuki"
+              className={({ isActive }) => isActive ? "active" : ""}
+            >
+              Yuki
+            </NavLink>
+          </li>
+          <li>
+            <NavLink 
+              to="/contact"
+              className={({ isActive }) => isActive ? "active" : ""}
+            >
+              Contact Me
+            </NavLink>
+          </li>
+          <li>
+            <button>Resume</button>
           </li>
         </ul>
       </nav>
@@ -25,6 +52,3 @@ const Navbar = () => (
 );
 
 export default Navbar;
-
-// TODO
-// follows as you scroll 

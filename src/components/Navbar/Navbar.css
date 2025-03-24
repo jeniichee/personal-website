@@ -1,33 +1,38 @@
-.nav {
-  background-color: #f6f5f3;
-  z-index: 1;
-  border: 0; 
+#Navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: white; /* Set your desired background color */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional shadow effect */
 }
 
-nav ul {
+.nav ul {
   list-style: none;
-  display: flex; 
-  margin: 0; 
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  margin: 0;
 }
 
-nav ul li a {
-    display: block;
-    text-transform: uppercase;
-    text-decoration: none;
-    text-align: center; 
-    min-width: 7.5rem; 
-    height: 2.75rem; 
-    line-height: 2.75rem; 
-    letter-spacing: 0.2rem; 
-    font-size: 0.8rem; 
-    border-bottom: 0;
+.nav li {
+  margin: 0 1rem;
 }
 
-a:hover {
-    border-bottom-color: transparent;
+.nav a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
 }
 
-.name {
-    font-family: "Sulphur Point", sans-serif;
-    font-weight: bolder;
+.nav a:hover {
+  color: #007bff; /* Change to your hover color */
+}
+
+.nav .name {
+  margin-right: auto;
+}
+
+.active {
+  font-weight: bold;
+  color: #007bff !important; /* Change to your active color */
 }
