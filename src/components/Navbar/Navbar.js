@@ -12,6 +12,14 @@ const Navbar = () => (
           </li>
           <li>
             <NavLink 
+              to="/" 
+              className={({ isActive }) => isActive ? "active" : ""}
+            >
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink 
               to="/about" 
               className={({ isActive }) => isActive ? "active" : ""}
             >
@@ -41,9 +49,6 @@ const Navbar = () => (
             >
               Contact Me
             </NavLink>
-          </li>
-          <li>
-            <button>Resume</button>
           </li>
         </ul>
       </nav>
