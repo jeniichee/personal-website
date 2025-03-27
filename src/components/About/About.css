@@ -1,0 +1,48 @@
+.background {
+  width: auto;
+  min-height: 90vh;
+}
+
+.interests {
+  width: auto;
+  min-height: 100vh;
+}
+
+.icon {
+  font-size: 4em;
+}
+
+.icon-title {
+    
+}
+
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  min-height: 80vh;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* mobile view */
+@media (max-width: 768px) {
+  .icon-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+  }
+}
+
+.icon-title {
+}
