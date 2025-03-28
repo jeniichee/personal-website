@@ -8,46 +8,59 @@ import {
   faRobot,
   faHexagonNodes,
 } from "@fortawesome/free-solid-svg-icons";
+
 import "./About.css";
 
 function About() {
   return (
     <div className="about">
-      <h2 className="major">Background</h2>
-      <section className="background"></section>
+      <section className="background">
+        <h2 className="major">Background</h2>
+        <div className="background-container">
+          <span className="background-content">hello</span>
+          <img
+            className="background-img"
+            src={require("../../assets/Jennifer Cheung.jpg")}
+            alt={"Jennifer Cheung"}
+          />
+        </div>
+      </section>
 
-      <h2 className="major">Interests</h2>
       <section className="interests">
+        <h2 className="major">Interests</h2>
         <div className="icon-grid">
           <div className="icon-container">
             <FontAwesomeIcon icon={faLaptopCode} className="icon" />
-            <span className="icon-title">Web Development</span>
+            <h1 className="icon-title">Web Development</h1>
           </div>
           <div className="icon-container">
             <FontAwesomeIcon icon={faMagnifyingGlassChart} className="icon" />
-            <span className="icon-title">Data Analytics</span>
+            <h1 className="icon-title">Data Analytics</h1>
           </div>
           <div className="icon-container">
             <FontAwesomeIcon icon={faDna} className="icon" />
-            <span className="icon-title">Bioinformatics</span>
+            <h1 className="icon-title">Bioinformatics</h1>
           </div>
           <div className="icon-container">
             <FontAwesomeIcon icon={faObjectGroup} className="icon" />
-            <span className="icon-title">UX/UI Design</span>
+            <h1 className="icon-title">UX/UI Design</h1>
           </div>
           <div className="icon-container">
             <FontAwesomeIcon icon={faRobot} className="icon" />
-            <span className="icon-title">Machine Learning</span>
+            <h1 className="icon-title">Machine Learning</h1>
           </div>
           <div className="icon-container">
             <FontAwesomeIcon icon={faHexagonNodes} className="icon" />
-            <span className="icon-title">Natural Language Processing</span>
+            <h1 className="icon-title">NLP</h1>
           </div>
         </div>
       </section>
 
-      <h2 className="major">Hobbies</h2>
-      <section className="hobbies"></section>
+      <section className="hobbies">
+        <h2 className="major" style={{ color: "white", borderColor: "white" }}>
+          Hobbies
+        </h2>
+      </section>
     </div>
   );
 }
