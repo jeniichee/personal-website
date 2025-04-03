@@ -8,16 +8,18 @@ import {
   faRobot,
   faHexagonNodes,
 } from "@fortawesome/free-solid-svg-icons";
+import text from "../../assets/about-background.js"; 
 
 import "./About.css";
 
 function About() {
+ 
   return (
     <div className="about">
       <section className="background">
         <h2 className="major">Background</h2>
         <div className="background-container">
-          <span className="background-content">hello</span>
+          <p className="background-content">{text}</p>
           <img
             className="background-img"
             src={require("../../assets/Jennifer Cheung.jpg")}
