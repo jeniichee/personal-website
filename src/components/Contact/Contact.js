@@ -4,6 +4,7 @@ import "./Contact.css";
 function Contact() {
   return (
     <section id="contact">
+       <h2 className="major">Contact Me</h2>
       <footer className="copyright">
         <div className="footer">
           <a href="mailto:cheung.jenn@northeastern.edu">
@@ -19,7 +20,7 @@ function Contact() {
             <img src="assets/images/instagram.png" alt="Instagram" />
           </a>
         </div>
-        Coded by Jennifer Cheung 🌸 2024 🌸
+        Coded by Jennifer Cheung 🌸 2025 🌸
       </footer>
     </section>
   );

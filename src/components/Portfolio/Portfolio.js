@@ -1,4 +1,5 @@
 import React from "react";
+import { GrLinkNext } from "react-icons/gr";
 import "./Portfolio.css";
 
 function Portfolio() {
@@ -7,15 +8,18 @@ function Portfolio() {
     <section className="portfolio">
       <h2 className="major">Portfolio</h2>
       <div className="projects">
-        <div className="card" > 
-          <div className="card-front">
-            This is the front of the card.
-            <div className="card-back">
-              This is the back of the card. 
-            </div>
+        <div className="card" >
+          <div className="card-image">
+            <div className="icon"> <GrLinkNext /> </div>
+          </div>
+          <div className="text">
+            Attendance Manager
+          </div>
+          <div className="description">
+            checks who is here and who isnt here
           </div>
         </div>
-        
+
       </div>
     </section>
   );
