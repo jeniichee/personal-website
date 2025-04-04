@@ -8,47 +8,24 @@ const Navbar = () => (
       <nav>
         <ul>
           <li className="name">
-            <Link to="/">Jennifer Cheung</Link>
+            <a href="#home">Jennifer Cheung</a>
           </li>
           <li>
-            <NavLink 
-              to="/" 
-              className={({ isActive }) => isActive ? "active" : ""}
-            >
-              Home
-            </NavLink>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <NavLink 
-              to="/about" 
-              className={({ isActive }) => isActive ? "active" : ""}
-            >
-              About
-            </NavLink>
+
+            <a href="#about">About</a>
           </li>
           <li>
-            <NavLink 
-              to="/portfolio"
-              className={({ isActive }) => isActive ? "active" : ""}
-            >
-              Portfolio
-            </NavLink>
+
+            <a href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <NavLink 
-              to="/yuki"
-              className={({ isActive }) => isActive ? "active" : ""}
-            >
-              Yuki
-            </NavLink>
+            <a href="#yuki">Yuki</a>
           </li>
           <li>
-            <NavLink 
-              to="/contact"
-              className={({ isActive }) => isActive ? "active" : ""}
-            >
-              Contact Me
-            </NavLink>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
