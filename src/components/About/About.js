@@ -8,12 +8,12 @@ import {
   faRobot,
   faHexagonNodes,
 } from "@fortawesome/free-solid-svg-icons";
-import text from "../../assets/about-background.js"; 
+import text from "../../assets/about-background.js";
 
 import "./About.css";
 
 function About() {
- 
+
   return (
     <section id="about">
       <section className="background">
