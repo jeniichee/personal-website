@@ -5,7 +5,7 @@ import "./Portfolio.css";
 function Portfolio() {
 
   return (
-    <section className="portfolio">
+    <section id="portfolio">
       <h2 className="major">Portfolio</h2>
       <div className="projects">
         <div className="card" >

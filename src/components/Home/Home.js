@@ -4,7 +4,7 @@ import "./Home.css";
 
 function Home() {
     return (
-        <div className="home">
+        <section id="home">
             <div className="home-content">
                 <h1>Jennifer Cheung</h1>
                 <p>RAAAAAAAAAAAAAHHHHHHHHHHH</p>
@@ -16,7 +16,7 @@ function Home() {
             <div className="home-picture">
                 <img className='profile-img' src={require("../../assets/Jennifer Cheung.jpg")} alt={"Jennifer Cheung"} />
             </div>
-        </div>
+        </section>
     ); 
 }; 
 

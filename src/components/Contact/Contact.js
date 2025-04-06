@@ -4,8 +4,8 @@ import "./Contact.css";
 function Contact() {
   return (
     <section id="contact">
-       <h2 className="major">Contact Me</h2>
       <footer className="copyright">
+        <h2 className="major">Contact Me</h2>
         <div className="footer">
           <a href="mailto:cheung.jenn@northeastern.edu">
             <img src="assets/images/email.png" alt="Email" />
