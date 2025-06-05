@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import resume from "../../Jennifer Cheung Resume.pdf"; 
 
 const Navbar = () => (
   <section id="Navbar">
@@ -14,17 +15,20 @@ const Navbar = () => (
           </li>
           <li>
 
-            <a href="#about">About</a>
+            <a href="#portfolio">Work</a>
           </li>
           <li>
 
-            <a href="#portfolio">Portfolio</a>
+            <a href="#about">Fun</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#yuki">Yuki</a>
-          </li>
+          </li> */}
           <li>
             <a href="#contact">Contact</a>
+          </li>
+          <li>
+            <a href={resume} download="Please Hire Me.pdf">Resume</a>
           </li>
         </ul>
       </nav>

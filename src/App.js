@@ -15,9 +15,9 @@ function App() {
     <div className="App">
       <Navbar />
       <Home />
-      <About />
       <Portfolio />
-      <Yuki />
+      <About />
+      {/* <Yuki /> */}
       <Contact />
     </div>
     </BrowserRouter>

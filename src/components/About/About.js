@@ -17,18 +17,13 @@ function About() {
   return (
     <section id="about">
       <section className="background">
-        <h2 className="major">Background</h2>
+        <h2 className="major">Fun</h2>
         <div className="background-container">
           <p className="background-content">{text}</p>
-          <img
-            className="background-img"
-            src={require("../../assets/Jennifer Cheung.jpg")}
-            alt={"Jennifer Cheung"}
-          />
         </div>
       </section>
 
-      <section className="interests">
+      {/* <section className="interests">
         <h2 className="major">Interests</h2>
         <div className="icon-grid">
           <div className="icon-container">
@@ -56,7 +51,7 @@ function About() {
             <h1 className="icon-title">NLP</h1>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="hobbies">
         <h2 className="major" style={{ color: "white", borderColor: "white" }}>
