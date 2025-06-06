@@ -7,7 +7,7 @@ function Contact() {
       <footer className="copyright">
         <h2 className="major">Contact Me</h2>
         <div className="footer">
-          <a href="mailto:cheung.jenn@northeastern.edu">
+          <a href="mailto:jennifercheung1234@gmail.com">
             <img src="assets/images/email.png" alt="Email" />
           </a>
           <a href="https://www.linkedin.com/in/jennifer-cheung1/">

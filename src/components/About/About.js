@@ -8,7 +8,6 @@ import {
   faRobot,
   faHexagonNodes,
 } from "@fortawesome/free-solid-svg-icons";
-import text from "../../assets/about-background.js";
 
 import "./About.css";
 
@@ -19,7 +18,7 @@ function About() {
       <section className="background">
         <h2 className="major">Fun</h2>
         <div className="background-container">
-          <p className="background-content">{text}</p>
+
         </div>
       </section>
 
