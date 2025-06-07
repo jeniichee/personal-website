@@ -13,21 +13,43 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        {/* <Navbar /> */}
-        <Home />
-        <Portfolio />
-        <Yuki />
-        <Contact />
+        <Navbar />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <Home />
+                <Portfolio />
+                <Contact />
+              </>
+            }
+          />
+
+          <Route
+            path="/about"
+            element={
+              <>
+                {" "}
+                <About />
+                <Contact />
+              </>
+            }
+          />
+
+          <Route
+            path="/yuki"
+            element={
+              <>
+                <Yuki />
+                <Contact />
+              </>
+            }
+          />
+        </Routes>
       </div>
-      <Routes>
-        <Route path="/" element={<Navbar />}>
-          <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-        </Route>
-      </Routes>
     </BrowserRouter>
   );
 }
 
 export default App;
-
