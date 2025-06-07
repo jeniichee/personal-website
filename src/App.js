@@ -30,7 +30,6 @@ function App() {
             path="/about"
             element={
               <>
-                {" "}
                 <About />
                 <Contact />
               </>
