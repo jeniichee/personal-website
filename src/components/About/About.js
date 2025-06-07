@@ -18,7 +18,7 @@ function About() {
       <section className="background">
         <h2 className="major">Fun</h2>
         <div className="background-container">
-
+          hello!
         </div>
       </section>
 
