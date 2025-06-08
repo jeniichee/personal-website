@@ -11,7 +11,7 @@ import {
 
 import "./About.css";
 
-function About() {
+const About = () =>{
 
   return (
     <section id="about">

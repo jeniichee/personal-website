@@ -2,7 +2,7 @@ import React from "react";
 import { GrLinkNext } from "react-icons/gr";
 import "./Portfolio.css";
 
-function Portfolio() {
+const Portfolio = () => {
 
   return (
     <section id="portfolio">

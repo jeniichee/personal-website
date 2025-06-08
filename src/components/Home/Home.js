@@ -1,18 +1,53 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "./Home.css"; 
+import { React, useState, useEffect } from "react";
+import "./Home.css";
 
-function Home() {
-    return (
-        <section id="home">
-            <div className="home-content">
-                <h1>Jennifer Cheung</h1>
-            </div>
-            <div className="home-picture">
-                <img className='profile-img' src={require("../../assets/Jennifer Cheung.jpg")} alt={"Jennifer Cheung"} />
-            </div>
-        </section>
-    ); 
-}; 
+const Home = () => {
+  const [text, setText] = useState("");
+  const [currIndex, setCurrIndex] = useState(0);
+  const [isDeleting, setIsDeleting] = useState(false);
+  const [speed, setSpeed] = useState(150);
 
-export default Home; 
+  useEffect(() => {
+    const texts = ["Hello!", "My name is Jen"];
+    const currentText = texts[currIndex];
+
+    const timer = setTimeout(() => {
+      if (isDeleting) {
+        setText(currentText.substring(0, text.length - 1));
+        setSpeed(50);
+
+        if (text === "") {
+          setIsDeleting(false);
+          setCurrIndex((prev) => (prev + 1) % texts.length);
+          setSpeed(150);
+        }
+      } else {
+        setText(currentText.substring(0, text.length + 1));
+
+        if (text === currentText) {
+          setTimeout(() => setIsDeleting(true), 1000);
+        }
+      }
+    }, speed);
+
+    return () => clearTimeout(timer);
+  }, [text, currIndex, isDeleting, speed]);
+
+  return (
+    <section id="home">
+      <div className="home-content">
+        <h1>Jennifer Cheung</h1>
+        <span>{text}</span>
+      </div>
+      <div className="home-picture">
+        <img
+          className="profile-img"
+          src={require("../../assets/Jennifer Cheung.jpg")}
+          alt={"Jennifer Cheung"}
+        />
+      </div>
+    </section>
+  );
+};
+
+export default Home;
