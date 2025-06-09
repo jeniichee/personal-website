@@ -8,7 +8,11 @@ const Home = () => {
   const [speed, setSpeed] = useState(150);
 
   useEffect(() => {
-    const texts = ["Hello!", "My name is Jen"];
+    const texts = [
+      "Class of 2025",
+      "I studied CS, Neuroscience, and dabbled in Stats ",
+    ];
+
     const currentText = texts[currIndex];
 
     const timer = setTimeout(() => {
@@ -36,8 +40,12 @@ const Home = () => {
   return (
     <section id="home">
       <div className="home-content">
-        <h1>Jennifer Cheung</h1>
-        <span>{text}</span>
+        <div className="home-heading">
+          <span>Hello! My name is Jen.</span>
+        </div>
+        <div className="home-blurb">
+          <span>{text}|</span>
+        </div>
       </div>
       <div className="home-picture">
         <img
