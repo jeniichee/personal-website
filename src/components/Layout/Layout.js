@@ -14,7 +14,6 @@ const Layout = () => {
     } else {
       document.getElementById("Navbar").style.display = "block";
     }
-
     setPrevPos(currPos);
   };
 

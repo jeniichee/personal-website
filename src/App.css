@@ -40,3 +40,9 @@ h2.major {
   padding-bottom: 0.5rem;
   margin-left: 2rem;
 }
+
+.polaroid {
+  background: #fff;
+  padding: 1rem;
+  box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+}
