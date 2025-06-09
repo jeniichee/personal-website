@@ -43,6 +43,26 @@ h2.major {
 
 .polaroid {
   background: #fff;
+  display: flex; 
+  width: fit-content;
+  max-width: 100%;
+  overflow: visible;
+  flex-direction: column;
   padding: 1rem;
   box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+}
+
+.polaroid > img {
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+}
+
+.polaroid .caption {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.8rem;
+  text-align: left;
+  width: 100%;
+  max-width: 450px;
+  box-sizing: border-box;
 }

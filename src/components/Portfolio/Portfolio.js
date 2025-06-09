@@ -7,7 +7,7 @@ const Portfolio = () => {
       <h2 className="major">Projects</h2>
       <div className="projects" style={{ paddingTop: "30px" }}>
 
-        {/*  */}
+        {/* */}
         <div className="card"></div>
         {/*  */}
         <div className="card"></div>

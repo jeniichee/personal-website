@@ -47,12 +47,16 @@ const Home = () => {
           <span>{text}|</span>
         </div>
       </div>
-      <div className="home-picture">
+      <div className="polaroid">
         <img
-          className="profile-img"
-          src={require("../../assets/Jennifer Cheung.jpg")}
+          src={require("../../assets/jen_bw.jpg")}
           alt={"Jennifer Cheung"}
         />
+        <span className="caption">
+        I am currently unemployed.
+          Hello
+          wil u go to next line
+        </span>
       </div>
     </section>
   );
