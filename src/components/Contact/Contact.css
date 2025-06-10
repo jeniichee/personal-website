@@ -1,8 +1,47 @@
 #contact {
-    background: #C4C5BA;
+  background: #11201e;
+  color: white;
 }
 
-.copyright{
-    box-sizing: border-box;
-    padding: 20px; 
+.copyright {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.copy-left {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.copy-right {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 2rem;
+}
+
+.copy-left > h2 {
+  font-size: 3rem;
+  height: 100%;
+  width: 100%;
+  max-width: 350px;
+  border-bottom: none;
+}
+
+.copy-right > h2 {
+  font-size: 3rem;
+  height: 100%;
+  width: 100%;
+  max-width: 350px;
+  border-bottom: none;
+}
+
+.copy-comfy {
+  margin-left: 2rem;
+  font-size: 2rem;
 }

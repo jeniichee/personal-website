@@ -41,7 +41,7 @@ const Home = () => {
     <section id="home">
       <div className="home-content">
         <div className="home-heading">
-          <span>Hello! My name is Jen. Welcome to my tiny corner of the internet 🪴</span>
+          <span>Hello! My name is Jen. Welcome to my tiny, cozy corner of the internet 🪴</span>
         </div>
         <div className="home-blurb">
           <span>{text}|</span>
