@@ -11,14 +11,14 @@ import {
 
 import "./About.css";
 
-function About() {
+const About = () =>{
 
   return (
     <section id="about">
       <section className="background">
         <h2 className="major">Fun</h2>
         <div className="background-container">
-
+          hello!
         </div>
       </section>
 

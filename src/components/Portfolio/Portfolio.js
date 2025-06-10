@@ -1,111 +1,90 @@
 import React from "react";
-import { GrLinkNext } from "react-icons/gr";
 import "./Portfolio.css";
 
-function Portfolio() {
-
+const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h2 className="major">Portfolio</h2>
-      <div className="projects">
-        <div className="card" >
-          <div className="card-image">
-            <div className="icon"> <GrLinkNext /> </div>
-          </div>
-          <div className="text">
-            Attendance Manager
-          </div>
-          <div className="description">
-            checks who is here and who isnt here
-          </div>
+      <h2 className="major">Projects</h2>
+      <div className="projects" style={{ paddingTop: "30px" }}>
+        {/* Personal Website */}
+        <div className="card">
+          <span className="front">
+            <span className="front-title">My Portfolio</span>
+            <span>Personal Project</span>
+          </span>
+          <span className="back">Still in works!</span>
         </div>
 
-        <div className="card" >
-          <div className="card-image">
-            <div className="icon"> <GrLinkNext /> </div>
-          </div>
-          <div className="text">
-            Battle Ship 
-          </div>
-          <div className="description">
-            java-renedition of battle ship 
-          </div>
+        {/* Fake Stack OverFlow */}
+        <div className="card">
+          <span className="front">
+            <span className="front-title">My Portfolio</span>
+            <span>Personal Project</span>
+          </span>
+          <span className="back">Still in works!</span>
         </div>
 
-
-        <div className="card" >
-          <div className="card-image">
-            <div className="icon"> <GrLinkNext /> </div>
-          </div>
-          <div className="text">
-            NLP-based Text Clssification 
-          </div>
-          <div className="description">
-            two-stage pipeline to categorize text 
-          </div>
+        {/* NLP Text Classification */}
+        <div className="card">
+          <span className="front">
+            <span className="front-title">My Portfolio</span>
+            <span>Personal Project</span>
+          </span>
+          <span className="back">Still in works!</span>
         </div>
 
-
-        <div className="card" >
-          <div className="card-image">
-            <div className="icon"> <GrLinkNext /> </div>
-          </div>
-          <div className="text">
-            Bullet Journel 
-          </div>
-          <div className="description">
-            Uses JavaFX 
-          </div>
+        {/* Drug Consumption Project */}
+        <div className="card">
+          <span className="front">
+            <span className="front-title">My Portfolio</span>
+            <span>Personal Project</span>
+          </span>
+          <span className="back">Still in works!</span>
         </div>
 
-
-        <div className="card" >
-          <div className="card-image">
-            <div className="icon"> <GrLinkNext /> </div>
-          </div>
-          <div className="text">
-            2048 AI 
-          </div>
-          <div className="description">
-            Classic game of 2048 with self-learning program. 
-          </div>
+        {/*  */}
+        <div className="card">
+          <span className="front">
+            <span className="front-title">My Portfolio</span>
+            <span>Personal Project</span>
+          </span>
+          <span className="back">Still in works!</span>
         </div>
 
-
-        <div className="card" >
-          <div className="card-image">
-            <div className="icon"> <GrLinkNext /> </div>
-          </div>
-          <div className="text">
-            Stack Overflow 
-          </div>
-          <div className="description">
-            website
-          </div>
+        <div className="card">
+          <span className="front">
+            <span className="front-title">My Portfolio</span>
+            <span>Personal Project</span>
+          </span>
+          <span className="back">Still in works!</span>
         </div>
 
-
-        <div className="card" >
-          <div className="card-image">
-            <div className="icon"> <GrLinkNext /> </div>
-          </div>
-          <div className="text">
-            Notetaker/Study
-          </div>
-          <div className="description">
-            checks who is here and who isnt here
-          </div>
+        <div className="card">
+          <span className="front">
+            <span className="front-title">My Portfolio</span>
+            <span>Personal Project</span>
+          </span>
+          <span className="back">Still in works!</span>
         </div>
 
+        <div className="card">
+          <span className="front">
+            <span className="front-title">My Portfolio</span>
+            <span>Personal Project</span>
+          </span>
+          <span className="back">Still in works!</span>
+        </div>
+
+        <div className="card">
+          <span className="front">
+            <span className="front-title">My Portfolio</span>
+            <span>Personal Project</span>
+          </span>
+          <span className="back">Still in works!</span>
+        </div>
       </div>
     </section>
   );
-}
+};
 
 export default Portfolio;
-
-// TODO
-// click on each project to learn more about the project/takeaways/blog+code snippets
-// // takes u to a different page
-// have a small section to request full code
-// project cards 
