@@ -3,6 +3,6 @@
 }
 
 .copyright{
-    align-items: center;
-    justify-items: center;
+    box-sizing: border-box;
+    padding: 20px; 
 }

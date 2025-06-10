@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <footer className="copyright">
-        <h2 className="major">Contact Me</h2>
+        <h2 className="major">Thank you for visiting!</h2>
         <div className="footer">
           <a href="mailto:jennifercheung1234@gmail.com">
             <img src="assets/images/email.png" alt="Email" />
@@ -20,11 +20,10 @@ const Contact = () => {
             <img src="assets/images/instagram.png" alt="Instagram" />
           </a>
         </div>
-        Coded by Jennifer Cheung 🌸 2025 🌸
       </footer>
     </section>
   );
-}
+};
 
 export default Contact;
 

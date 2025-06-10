@@ -41,7 +41,7 @@ const Home = () => {
     <section id="home">
       <div className="home-content">
         <div className="home-heading">
-          <span>Hello! My name is Jen.</span>
+          <span>Hello! My name is Jen. Welcome to my tiny corner of the internet 🪴</span>
         </div>
         <div className="home-blurb">
           <span>{text}|</span>
@@ -54,8 +54,6 @@ const Home = () => {
         />
         <span className="caption">
         I am currently unemployed.
-          Hello
-          wil u go to next line
         </span>
       </div>
     </section>

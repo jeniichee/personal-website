@@ -8,70 +8,79 @@ const Portfolio = () => {
       <div className="projects" style={{ paddingTop: "30px" }}>
         {/* Personal Website */}
         <div className="card">
-          <img
-            src={require("../../assets/Jennifer Cheung.jpg")}
-            alt={"Jennifer Cheung"}
-          />
-          <span className="description">
-            <span className="top">My Portfolio</span>
-            <span className="bottom">Personal Project</span>
+          <span className="front">
+            <span className="front-title">My Portfolio</span>
+            <span>Personal Project</span>
           </span>
+          <span className="back">Still in works!</span>
         </div>
 
         {/* Fake Stack OverFlow */}
         <div className="card">
-          <span className="description">
-            <span className="top">My Portfolio</span>
-            <span className="bottom">Personal Project</span>
+          <span className="front">
+            <span className="front-title">My Portfolio</span>
+            <span>Personal Project</span>
           </span>
+          <span className="back">Still in works!</span>
         </div>
 
         {/* NLP Text Classification */}
         <div className="card">
-          <span className="description">
-            <span className="top">My Portfolio</span>
-            <span className="bottom">Personal Project</span>
+          <span className="front">
+            <span className="front-title">My Portfolio</span>
+            <span>Personal Project</span>
           </span>
+          <span className="back">Still in works!</span>
         </div>
 
         {/* Drug Consumption Project */}
         <div className="card">
-          <span className="description">
-            <span className="top">My Portfolio</span>
-            <span className="bottom">Personal Project</span>
+          <span className="front">
+            <span className="front-title">My Portfolio</span>
+            <span>Personal Project</span>
           </span>
+          <span className="back">Still in works!</span>
         </div>
 
-        {/* Research Platform */}
+        {/*  */}
         <div className="card">
-          <span className="description">
-            <span className="top">My Portfolio</span>
-            <span className="bottom">Personal Project</span>
+          <span className="front">
+            <span className="front-title">My Portfolio</span>
+            <span>Personal Project</span>
           </span>
+          <span className="back">Still in works!</span>
         </div>
 
-        {/* Attendance Manager System */}
         <div className="card">
-          <span className="description">
-            <span className="top">My Portfolio</span>
-            <span className="bottom">Personal Project</span>
+          <span className="front">
+            <span className="front-title">My Portfolio</span>
+            <span>Personal Project</span>
           </span>
+          <span className="back">Still in works!</span>
         </div>
 
-        {/* 2048 AI*/}
         <div className="card">
-          <span className="description">
-            <span className="top">My Portfolio</span>
-            <span className="bottom">Personal Project</span>
+          <span className="front">
+            <span className="front-title">My Portfolio</span>
+            <span>Personal Project</span>
           </span>
+          <span className="back">Still in works!</span>
         </div>
 
-        {/* Maze */}
         <div className="card">
-          <span className="description">
-            <span className="top">My Portfolio</span>
-            <span className="bottom">Personal Project</span>
+          <span className="front">
+            <span className="front-title">My Portfolio</span>
+            <span>Personal Project</span>
           </span>
+          <span className="back">Still in works!</span>
+        </div>
+
+        <div className="card">
+          <span className="front">
+            <span className="front-title">My Portfolio</span>
+            <span>Personal Project</span>
+          </span>
+          <span className="back">Still in works!</span>
         </div>
       </div>
     </section>
