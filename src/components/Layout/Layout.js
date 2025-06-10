@@ -29,11 +29,7 @@ const Layout = () => {
         <nav>
           <ul>
             <li className="name">
-              <a href="#home">Jennifer Cheung</a>
-            </li>
-
-            <li>
-              <Link to="/">Home</Link>
+              <Link to="/">Jennifer Cheung</Link>
             </li>
 
             <li>

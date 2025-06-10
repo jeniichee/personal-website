@@ -50,7 +50,7 @@ const Home = () => {
       <div className="polaroid">
         <img
           src={require("../../assets/jen_bw.jpg")}
-          alt={"Jennifer Cheung"}
+          alt={"Taken at a company party! Did some photoshop magic..."}
         />
         <span className="caption">
         I am currently unemployed.
