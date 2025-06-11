@@ -1,5 +1,6 @@
 import { React, useState, useEffect } from "react";
 import ReactMarkedDown from "react-markdown";
+import ReactMarkedDown from "react-markdown";
 import "./Home.css";
 
 const Home = () => {
@@ -12,6 +13,8 @@ const Home = () => {
     const texts = [
       "Class of 2025",
       "I studied CS, Neuro, and dabbled in Stats",
+      "Live, laugh, love matcha", 
+      "Delulu is the solulu",
     ];
 
     const currentText = texts[currIndex];
@@ -46,11 +49,33 @@ const Home = () => {
             Hello! My name is Jen. Welcome to my tiny, cozy corner of the
             internet 🪴
           </span>
+          <span>
+            Hello! My name is Jen. Welcome to my tiny, cozy corner of the
+            internet 🪴
+          </span>
         </div>
         <div className="home-blurb">
           <span>{text}|</span>
         </div>
       </div>
+      <div className="home-right">
+        <div className="polaroid">
+          <img
+            src={require("../../assets/jen_bw.jpg")}
+            alt={"Taken at a company party! Did some photoshop magic..."}
+          />
+          <span className="caption">
+            <span>This is me!</span>
+            <span className="hidden-caption">
+              ✨I am currently unemployed✨
+            </span>
+          </span>
+        </div>
+
+        <div className="me-caption">
+          <h2 className="major">Note</h2>
+          <span className="me"><ReactMarkedDown>Wearing the winged sandals of Hermes, I embody the "jack of all trades" spirit with a dash of playful energy: **fullstack/frontend engineer**, **data engineer**, and a lover of **pretty things**!</ReactMarkedDown></span>
+        </div>
       <div className="home-right">
         <div className="polaroid">
           <img
