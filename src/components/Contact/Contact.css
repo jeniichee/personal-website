@@ -7,22 +7,25 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  padding-bottom: 2rem;
 }
 
 .copy-left {
   display: flex;
   box-sizing: border-box;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: start;
+  /* background-color: black; */
 }
 
 .copy-right {
   display: flex;
   box-sizing: border-box;
   flex-direction: column;
-  justify-content: space-between;
-  margin-right: 2rem;
+  align-items: center;
+  height: fit-content;
+  padding-top: 2rem;
 }
 
 .copy-left > h2 {
@@ -42,6 +45,22 @@
 }
 
 .copy-comfy {
-  margin-left: 2rem;
   font-size: 2rem;
+  margin: 2rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.socials > a {
+  text-decoration: none;
+  color: white;
+  font-size: 3rem;
+}
+
+.socials > a:hover {
+  transform: scale(130%);
 }
