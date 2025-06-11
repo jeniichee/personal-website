@@ -17,11 +17,13 @@
   display: flex;
   width: fit-content;
   max-width: 60%;
-  overflow: visible;
+  max-height: 100vh;
+  overflow-y: scroll;
   flex-direction: column;
   padding: 1rem;
   border-radius: 5px;
-  text-align: center;
+  text-align: start;
+  font-size: 1.5rem; 
 }
 
 .popup-content button {
