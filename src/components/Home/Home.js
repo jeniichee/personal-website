@@ -12,8 +12,9 @@ const Home = () => {
     const texts = [
       "Class of 2025",
       "I studied CS, Neuro, and dabbled in Stats",
-      "Live, laugh, love matcha",
-      "Delulu is the solulu",
+      "Explorer, artist, and detective!",
+      "Matcha and coffee runs through my veins",
+      "I love watching mystery, horror, and thriller", 
     ];
 
     const currentText = texts[currIndex];
