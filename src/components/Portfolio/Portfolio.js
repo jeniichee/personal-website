@@ -1,11 +1,11 @@
-import { React, useState } from "react";
-import Popup from "../Popup/Popup";
+// import { React, useState } from "react";
+// import Popup from "../Popup/Popup";
 
 import "./Portfolio.css";
 
 const Portfolio = () => {
-  const [showPopup, setShowPopup] = useState(false);
-  const [popupMessage, setPopupMessage] = useState("");
+  // const [showPopup, setShowPopup] = useState(false);
+  // const [popupMessage, setPopupMessage] = useState("");
 
   const projects = [
     {
@@ -24,55 +24,55 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      title: "My Portfolio",
-      type: "Personal Project",
+      title: "Drug Consumption",
+      type: "Academic Case Study",
       summary:
         "This website! Coded using React, HTML, CSS, and JavaScript. I've integrated a few web dev choices I've learned from Fundamentals of Software Engineering, and I'm hoping to add more features in the near future. Still have soo many more ideas to try for this project!",
       description: "hello this is portfolio. ",
     },
     {
       id: 3,
-      title: "My Portfolio",
-      type: "Personal Project",
+      title: "2048 AI",
+      type: "Academic Case Study",
       summary:
         "This website! Coded using React, HTML, CSS, and JavaScript. I've integrated a few web dev choices I've learned from Fundamentals of Software Engineering, and I'm hoping to add more features in the near future. Still have soo many more ideas to try for this project!",
       description: "hello this is portfolio. ",
     },
     {
       id: 4,
-      title: "My Portfolio",
-      type: "Personal Project",
+      title: "Attendance Manager System",
+      type: "Professional",
       summary:
         "This website! Coded using React, HTML, CSS, and JavaScript. I've integrated a few web dev choices I've learned from Fundamentals of Software Engineering, and I'm hoping to add more features in the near future. Still have soo many more ideas to try for this project!",
       description: "hello this is portfolio. ",
     },
     {
       id: 5,
-      title: "My Portfolio",
-      type: "Personal Project",
+      title: "Maze",
+      type: "Academic Case Study",
       summary:
         "This website! Coded using React, HTML, CSS, and JavaScript. I've integrated a few web dev choices I've learned from Fundamentals of Software Engineering, and I'm hoping to add more features in the near future. Still have soo many more ideas to try for this project!",
       description: "hello this is portfolio. ",
     },
     {
       id: 6,
-      title: "My Portfolio",
-      type: "Personal Project",
+      title: "BattleSalvo",
+      type: "Academic Case Study",
       summary:
         "This website! Coded using React, HTML, CSS, and JavaScript. I've integrated a few web dev choices I've learned from Fundamentals of Software Engineering, and I'm hoping to add more features in the near future. Still have soo many more ideas to try for this project!",
       description: "hello this is portfolio. ",
     },
     {
       id: 7,
-      title: "My Portfolio",
-      type: "Personal Project",
+      title: "Algorithm Aversion Experiment Platform",
+      type: "Professional",
       summary:
         "This website! Coded using React, HTML, CSS, and JavaScript. I've integrated a few web dev choices I've learned from Fundamentals of Software Engineering, and I'm hoping to add more features in the near future. Still have soo many more ideas to try for this project!",
       description: "hello this is portfolio. ",
     },
     {
       id: 8,
-      title: "My Portfolio",
+      title: "",
       type: "Personal Project",
       summary:
         "This website! Coded using React, HTML, CSS, and JavaScript. I've integrated a few web dev choices I've learned from Fundamentals of Software Engineering, and I'm hoping to add more features in the near future. Still have soo many more ideas to try for this project!",
