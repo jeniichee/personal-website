@@ -49,7 +49,7 @@ const Layout = () => {
             </li>
 
             <li>
-              <a href={resume}>Resume</a>
+              <a href={resume} target="_blank" rel="noreferrer">Resume</a>
             </li>
           </ul>
         </nav>
