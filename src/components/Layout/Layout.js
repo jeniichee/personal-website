@@ -1,7 +1,7 @@
 import { React, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Layout.css";
-import resume from "../../assets/Jennifer Cheung Resume.pdf";
+import resume from "../../assets/Jennifer_Cheung_Resume.pdf";
 
 const Layout = () => {
   const [prevPos, setPrevPos] = useState(0);
