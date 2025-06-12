@@ -69,10 +69,12 @@ h2.major {
 }
 
 .polaroid .caption > :first-child:not(.hidden-caption) {
-  font-family: "Times New Roman", Times, serif;
+  font-family:'Courier New', Courier, monospace; 
   font-size: 1.8rem;
-  opacity: 0;
+  opacity: 1;
   transition: opacity 0.3s ease;
+  text-transform: lowercase;
+  
 }
 
 .hidden-caption {
@@ -92,8 +94,17 @@ h2.major {
   display: flex;
   align-items: center;
   justify-content: center;
+ text-transform: lowercase;
+}
+
+.polaroid .caption:hover > :first-child:not(.hidden-caption){
+  opacity: 0;
 }
 
 .polaroid .caption:hover .hidden-caption {
   opacity: 1;
+}
+
+.polaroid:hover {
+  transform:translate(3px);
 }

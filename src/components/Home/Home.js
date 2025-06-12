@@ -14,7 +14,7 @@ const Home = () => {
       "I studied CS, Neuro, and dabbled in Stats",
       "Explorer, artist, and detective!",
       "Matcha and coffee runs through my veins",
-      "I love watching mystery, horror, and thriller", 
+      "I love mystery, horror, and thriller", 
     ];
 
     const currentText = texts[currIndex];
