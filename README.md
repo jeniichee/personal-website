@@ -4,3 +4,4 @@ Hello! Welcome to my website--[come visit](https://personal-website-ngw47x59c-je
 - [ ] Add links/details to projects
 - [ ] Add more fun information about myself
 - [ ] Add/fill in Yuki page
+- [ ] Add CV ;-;
