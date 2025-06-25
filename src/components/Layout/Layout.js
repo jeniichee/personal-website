@@ -32,17 +32,17 @@ const Layout = () => {
               <Link to="/">Jennifer Cheung</Link>
             </li>
 
-            {/* <li>
-              <a href="#portfolio">Work</a>
-            </li> */}
-
             <li>
+              <a href="#portfolio">Work</a>
+            </li>
+
+            {/* <li>
               <Link to="/about">Fun</Link>
             </li>
 
             <li>
               <Link to="/yuki">Yuki</Link>
-            </li>
+            </li> */}
 
             <li>
               <a href="#contact">Contact</a>
