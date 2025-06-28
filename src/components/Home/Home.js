@@ -72,9 +72,9 @@ const Home = () => {
           <h2 className="major">Note</h2>
           <span className="me">
             <ReactMarkedDown>
-              Wearing the winged sandals of Hermes, I embody the "jack of all
+              I embody the "jack of all
               trades" spirit with a dash of playful energy: **fullstack/frontend
-              engineer**, **data engineer**, and a keen interest for **cybersecurity**!
+              engineer**, **data analyst**, and a keen interest for **cybersecurity**!
             </ReactMarkedDown>
           </span>
         </div>

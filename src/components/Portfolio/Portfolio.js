@@ -44,7 +44,7 @@ const Portfolio = () => {
       summary:
         "Final project for CS4530 (Fundamentals of Software Engineering)! We were tasked to develop an enhanced version of Stack "+
         "Overflow in a team of 3. Our group focused on accessibility, real-time chat, and authentication, where I uptoke responsibility for Frontend and accessbility. "+
-        "Key accesibility features include customizable display options (high-contrast modes, adjustable font sizes) for users with visual impairments. "+
+        "Key accessibility features include customizable display options (high-contrast modes, adjustable font sizes) for users with visual impairments. "+
         "Agile methodologies were followed and SDLC was in-practice.",
     },
     {
