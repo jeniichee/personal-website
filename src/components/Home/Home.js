@@ -74,7 +74,7 @@ const Home = () => {
             <ReactMarkedDown>
               I embody the "jack of all
               trades" spirit with a dash of playful energy: **fullstack/frontend
-              engineer**, **data analyst**, and a keen interest for **cybersecurity**!
+              engineer**, **data engineer**, and a keen interest for **cybersecurity**!
             </ReactMarkedDown>
           </span>
         </div>
