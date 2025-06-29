@@ -10,7 +10,7 @@ const Home = () => {
 
   useEffect(() => {
     const texts = [
-      "FGLI 💪🏼",
+      "FGLI :)",
       "Class of 2025",
       "I studied CS, Neuro, and dabbled in Stats",
       "Explorer, artist, and detective!",
