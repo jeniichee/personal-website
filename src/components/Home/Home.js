@@ -74,8 +74,7 @@ const Home = () => {
           <span className="me">
             <ReactMarkedDown>
               I embody the "jack of all
-              trades" spirit with a dash of playful energy: **fullstack/frontend
-              engineer**, **data engineer**, and a keen interest for **cybersecurity**!
+              trades" spirit with a dash of playful energy: **software engineer**, **data engineer**, and **researcher**!
             </ReactMarkedDown>
           </span>
         </div>
