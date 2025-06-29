@@ -10,10 +10,11 @@ const Home = () => {
 
   useEffect(() => {
     const texts = [
+      "FGLI 💪🏼",
       "Class of 2025",
       "I studied CS, Neuro, and dabbled in Stats",
       "Explorer, artist, and detective!",
-      "Matcha and coffee runs through my veins",
+      "Matcha, coffee, and hotpot run through my veins",
       "I love mystery, horror, and thriller", 
     ];
 
